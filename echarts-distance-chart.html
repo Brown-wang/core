@@ -58,19 +58,30 @@
         axisLine: {
           show: true,
           lineStyle: {
-            color: '#c0cdd6',
-            width: 1
+            color: '#a0b0bc',
+            width: 1.5
           }
         },
         axisTick: {
           show: true,
-          length: 5,
+          length: 6,
+          inside: false,
           lineStyle: {
-            color: '#c0cdd6'
+            color: '#a0b0bc',
+            width: 1
+          }
+        },
+        minorTick: {
+          show: true,
+          splitNumber: 5,
+          length: 3,
+          lineStyle: {
+            color: '#b8c8d4',
+            width: 1
           }
         },
         axisLabel: {
-          color: '#8a9baa',
+          color: '#7a8d9e',
           fontSize: 12,
           margin: 8,
           formatter: function (value) {
